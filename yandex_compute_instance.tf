@@ -1,5 +1,5 @@
 # ресурс "yandex_compute_instance" т.е. сервер
-# Terraform будет знаеть его по имени "yandex_compute_instance.default"
+# Terraform будет знаеть его по имени "yandex_compute_instance.bastion"
 resource "yandex_compute_instance" "bastion" {
   name        = "bastion-host"
   platform_id = "standard-v3" # тип процессора (Intel Ice Lake)
